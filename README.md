@@ -5,6 +5,8 @@ library with DW's [kehaar][kehaar] for communicating with RabbitMQ.
 
 ## Rationale
 
+See also, [ADR: Best practices for using mount with kehaar][ADR-10]
+
 Kehaar has its own state management system in the `kehaar.configured`
 namespace. Unfortunately, due to the way it binds queue publishers to channels,
 and queue consumers to functions, this system doesn't allow reloading a
@@ -178,3 +180,4 @@ at https://www.gnu.org/software/classpath/license.html.
 
 [mount]: https://github.com/tolitius/mount
 [kehaar]: https://github.com/democracyworks/kehaar
+[ADR-10]: https://democracyworks.atlassian.net/wiki/spaces/INFRA/pages/194347250/ADR+10+Best+practices+for+using+mount+with+kehaar
