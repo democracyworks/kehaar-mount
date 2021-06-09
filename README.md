@@ -1,6 +1,6 @@
 # kehaar-mount
 
-A Clojure library to facilitate using the mount [mount][mount] state management
+A Clojure library to facilitate using the [mount][mount] state management
 library with DW's [kehaar][kehaar] for communicating with RabbitMQ.
 
 ## Rationale
